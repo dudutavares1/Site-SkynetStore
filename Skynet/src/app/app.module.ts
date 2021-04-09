@@ -12,6 +12,8 @@ import { LuvasComponent } from './loja/luvas/luvas.component';
 import { PromocaoComponent } from './loja/promocao/promocao.component';
 import { MenuComponent } from './menu/menu.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+@import url ('https://fonts.googleapis.com/css2? family = Roboto & display = swap'); </style>
 import { MenuComponent } from './menu.component';
 
 describe('MenuComponent', () => {
