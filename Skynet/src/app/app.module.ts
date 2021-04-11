@@ -11,6 +11,7 @@ import { FacasComponent } from './loja/facas/facas.component';
 import { LuvasComponent } from './loja/luvas/luvas.component';
 import { PromocaoComponent } from './loja/promocao/promocao.component';
 import { MenuComponent } from './menu/menu.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 
 
@@ -25,7 +26,8 @@ import { MenuComponent } from './menu/menu.component';
     FacasComponent,
     LuvasComponent,
     PromocaoComponent,
-    MenuComponent
+    MenuComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
