@@ -12,6 +12,7 @@ import { LuvasComponent } from './loja/luvas/luvas.component';
 import { PromocaoComponent } from './loja/promocao/promocao.component';
 import { MenuComponent } from './menu/menu.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 
 
@@ -27,7 +28,8 @@ import { CadastroComponent } from './cadastro/cadastro.component';
     LuvasComponent,
     PromocaoComponent,
     MenuComponent,
-    CadastroComponent
+    CadastroComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
