@@ -1,6 +1,6 @@
-body{
+.body{
   margin-top:20px;
-  background:#f3f3f3;
+ 
 }
 
 .card.user-card {
@@ -9,9 +9,11 @@ body{
   box-shadow: 0 0 1px 2px rgba(0,0,0,0.05), 0 -2px 1px -2px rgba(0,0,0,0.04), 0 0 0 -1px rgba(0,0,0,0.05);
   -webkit-transition: all 150ms linear;
   transition: all 150ms linear;
+  
 }
 
 .card {
+  background:#070707d3;
   border-radius: 5px;
   -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
   box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
@@ -22,14 +24,16 @@ body{
 }
 
 .card .card-header {
-  background-color: transparent;
+  background-color: rgb(109, 109, 109);
+  text-align: center;
   border-bottom: none;
-  padding: 25px;
+  padding:25px;
 }
 
 .card .card-header h5 {
+  text-align: center;
   margin-bottom: 0;
-  color: #222;
+  color: rgb(255, 255, 255);
   font-size: 14px;
   font-weight: 600;
   display: inline-block;
@@ -43,10 +47,11 @@ body{
 
 .user-card .card-block {
   text-align: center;
+  color: white;
 }
 
 .card .card-block {
-  padding: 25px;
+  padding: 5px;
 }
 
 .user-card .card-block .user-image {
@@ -92,11 +97,13 @@ body{
 }
 
 .text-muted {
-  color: #919aa3!important;
+  color: #ffffff!important;
+  background-color: rgba(243, 236, 236, 0.055);
+  font-family: fantasy;
 }
 
 .user-card .card-block .activity-leval li.active {
-  background-color: #2ed8b6;
+  background-color: #00a080;
 }
 
 .user-card .card-block .activity-leval li {
@@ -108,19 +115,19 @@ body{
 }
 
 .user-card .card-block .counter-block {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .bg-c-blue {
-  background: linear-gradient(45deg,#4099ff,#73b4ff);
+  background: linear-gradient(45deg,#050505,#bebfc0);
 }
 
 .bg-c-green {
-  background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+  background: linear-gradient(45deg,#050505,#bebfc0);
 }
 
 .bg-c-yellow {
-  background: linear-gradient(45deg,#FFB64D,#ffcb80);
+  background: linear-gradient(45deg,#050505,#bebfc0);
 }
 
 .bg-c-pink {
@@ -157,28 +164,8 @@ body{
   border-bottom-right-radius: 50px;
 }
 
-.user-card .card-block .user-image:after, .user-card .card-block .user-image:before {
-  content: "";
-  width: 100%;
-  height: 48%;
-  border: 2px solid #4099ff;
-  position: absolute;
-  left: 0;
-  z-index: 10;
-}
 
-.user-card .card-block .user-image:after {
-  top: 0;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
 
-.user-card .card-block .user-image:after, .user-card .card-block .user-image:before {
-  content: "";
-  width: 100%;
-  height: 48%;
-  border: 2px solid #4099ff;
-  position: absolute;
-  left: 0;
-  z-index: 10;
-}
+
+
+
