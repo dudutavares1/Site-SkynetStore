@@ -1,8 +1,8 @@
 
 <br>
-        <div class="card">
+        <div class="card" *ngFor=" let player of team">
             <img src="https://scontent.fsjk6-1.fna.fbcdn.net/v/t1.6435-9/127714082_427312121988594_914727577041099613_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=19026a&_nc_ohc=sdnnXKEX_G0AX_WqdFc&_nc_ht=scontent.fsjk6-1.fna&oh=337cd5f1708dd70e2bcdfa03500de3c9&oe=60971FEE" class="img-radius" alt="User-Profile-Image" alt="John" style="width:100%">
-            <h1>Dudu Tavares</h1>
+            <h1>{{player.name}}</h1>
             <p class="title">Sniper</p>
             <h5>tr1pa</h5>
             <a href="#"><i class="fa fa-dribbble"></i></a>
