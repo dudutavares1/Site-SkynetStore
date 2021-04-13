@@ -13,6 +13,8 @@ import { PromocaoComponent } from './loja/promocao/promocao.component';
 import { MenuComponent } from './menu/menu.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { TripaComponent } from './team/tripa/tripa.component';
+import { VyollaComponent } from './team/vyolla/vyolla.component';
 
 
 
@@ -29,7 +31,9 @@ import { RodapeComponent } from './rodape/rodape.component';
     PromocaoComponent,
     MenuComponent,
     CadastroComponent,
-    RodapeComponent
+    RodapeComponent,
+    TripaComponent,
+    VyollaComponent
   ],
   imports: [
     BrowserModule,
