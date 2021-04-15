@@ -1,26 +1,21 @@
-
- <div class="container d-flex justify-content-center" *ngFor="let produto of loja">
-  <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"> <img src="{{ produto.avatar }}"> </a>
-      <figcaption class="info-wrap">
-          <div class="row">
-              <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">{{produto.name}}</a> <span class="rated"></span> </div>
-              <div class="col-md-3 col-xs-3">
-                  <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <span class="rated">Rated 4.0/5</span> </div>
+<div class="bg-dark vh-100 d-flex justify-content-center align-items-center">
+  <div class="container d-flex justify-content-center" *ngFor="let produto of loja">
+      <div class="card p-2">
+          <div class="p-info px-3 py-3">
+              <div>
+                  <h5 class="mb-0">{{produto.name}}</h5> <span>{{produto.status}}</span>
               </div>
+              <div class="p-price d-flex flex-row"> <span>R$</span>
+                  <h1>{{produto.valor}}</h1>
+              </div>
+              <div class="heart"> <i class="bx bx-heart"></i> </div>
           </div>
-      </figcaption>
-      <div class="bottom-wrap-payment">
-          <figcaption class="info-wrap">
-              <div class="row">
-                  <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">{{produto.valor}}</a> <span class="rated">{{produto.status}}</span> </div>
-                  <div class="col-md-3 col-xs-3">
-                      <div class="rating text-right"> {{produto.codigo}} </div>
-                  </div>
-              </div>
-          </figcaption>
+          <div class="text-center p-image"> <img src="{{produto.avatar}}"> </div>
+          <div class="p-about">
+              <p>{{produto.info}}</p>
+          </div>
+          <div class="buttons d-flex flex-row gap-3 px-3"> <button class="btn btn-danger w-100">View</button> <button class="btn btn-outline-danger w-100">Buy Now</button> </div>
       </div>
-      <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Comprar</a>
-          <div class="price-wrap"> <a href="#" class="btn btn-warning float-left" data-abc="true"> Cancelar </a> </div>
-      </div>
-  </figure>
+  </div>
 </div>
+
