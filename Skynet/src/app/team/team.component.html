@@ -1,15 +1,46 @@
+<div class="card" *ngFor="let player of team">
+  <div class="ds-top"></div>
+  <div class="avatar-holder">
+    <img src="" alt="">
+  </div>
+  <div class="name">
+    <a href="" target="_blank">{{player.name}}</a>
+    <h6 title="Followers"><i class="fas fa-users"></i> <span class="followers">{{player.nick_name}}</span></h6>
+  </div>
+  <div class="button">
+    <a href="#" class="btn" onmousedown="follow();">Perfil <i class="fas fa-user-plus"></i></a>
+  </div>
+  <div class="ds-info">
+    <div class="ds posts">
+      <h6 title="Number of posts">Patente<i class="fas fa-comments"></i><p> </p></h6>
+      <p>{{player.patente}}</p>
+    </div>
+    <div class="ds posts">
+      <h6 title="Number of posts">Função<i class="fas fa-comments"></i><p> </p></h6>
+      <p>{{player.role}}</p>
+    </div>
+    <div class="ds posts">
+      <h6 title="Number of posts">ADR<i class="fas fa-comments"></i><p> </p></h6>
+      <p>{{player.adr}}</p>
+    </div>
+  </div>
 
-<br>
-        <div class="card" *ngFor=" let player of team">
-            <img src="https://scontent.fsjk6-1.fna.fbcdn.net/v/t1.6435-9/127714082_427312121988594_914727577041099613_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=19026a&_nc_ohc=sdnnXKEX_G0AX_WqdFc&_nc_ht=scontent.fsjk6-1.fna&oh=337cd5f1708dd70e2bcdfa03500de3c9&oe=60971FEE" class="img-radius" alt="User-Profile-Image" alt="John" style="width:100%">
-            <h1>{{player.name}}</h1>
-            <p class="title">Sniper</p>
-            <h5>tr1pa</h5>
-            <a href="#"><i class="fa fa-dribbble"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="button">Perfil</a>
-          </div>
 
-          
+
+  <div class="ds-skill">
+    <h6>Skill <i class="fa fa-code" aria-hidden="true"></i></h6>
+    <div class="skill html">
+      <h6><i class="fab fa-html5"></i>Head Shot</h6>
+      <div class="bar bar-html">
+        <p>{{player.head}}%</p>
+      </div>
+    </div>
+
+    <div class="skill css">
+      <h6><i class="fab fa-css3-alt"></i>Taxa de Vitorias</h6>
+      <div class="bar bar-css">
+        <p>{{player.vitoria}}%</p>
+      </div>
+    </div>
+  </div>
+</div>

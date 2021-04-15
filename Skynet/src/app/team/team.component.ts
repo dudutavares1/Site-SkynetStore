@@ -9,18 +9,26 @@ export class TeamComponent implements OnInit {
 
   team: any = [
   {
- name: "dudu tavares",
+ name: "Dudu Tavares",
  nick_name: "tr1pa",
- role: "sniper",
- victory: 95
-  }
+ role: "Sniper",
+ patente: "Aguia",
+ adr: 87,
+ vitoria: 65,
+ head: 35,
+},
 
 
 ]
- 
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+
+
+
+
+
