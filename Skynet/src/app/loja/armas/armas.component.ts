@@ -17,11 +17,11 @@ codigo: "0001",
 },
 
 {
-  name: "AWP | Incêndios",
+  name: "AWP | Asiimov",
   valor: "205,00",
   status: "Nova de fabrica",
  codigo: "0003",
-  avatar: "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_asimov_light_large.32d9045f8a2bcd13ca18390cc9fd82026e7195ab.png",
+  avatar: "https://csgostash.com/storage/img/skin_sideview/s274.png?id=9f7ae7d93f93ff4e8f66",
  },
 
  {

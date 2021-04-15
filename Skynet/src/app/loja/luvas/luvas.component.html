@@ -1,1 +1,27 @@
-<p>luvas works!</p>
+
+
+<div class="container d-flex justify-content-center" *ngFor="let produto of loja">
+  <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"> <img src="{{ produto.avatar }}"> </a>
+      <figcaption class="info-wrap">
+          <div class="row">
+              <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">{{produto.name}}</a> <span class="rated"></span> </div>
+              <div class="col-md-3 col-xs-3">
+                  <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <span class="rated">Rated 4.0/5</span> </div>
+              </div>
+          </div>
+      </figcaption>
+      <div class="bottom-wrap-payment">
+          <figcaption class="info-wrap">
+              <div class="row">
+                  <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">{{produto.valor}}</a> <span class="rated">{{produto.status}}</span> </div>
+                  <div class="col-md-3 col-xs-3">
+                      <div class="rating text-right"> {{produto.codigo}} </div>
+                  </div>
+              </div>
+          </figcaption>
+      </div>
+      <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Comprar</a>
+          <div class="price-wrap"> <a href="#" class="btn btn-warning float-left" data-abc="true"> Cancelar </a> </div>
+      </div>
+  </figure>
+</div>
