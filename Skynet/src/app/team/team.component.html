@@ -1,6 +1,11 @@
-<div class="card" *ngFor="let player of team">
+<div class="row">
+  <div class="col md-4"    *ngFor="let player of team">
+      <div class="card">
   <div class="ds-top"></div>
   <div class="avatar-holder">
+
+    <img src="{{ player.avatar }}" alt="">
+
     <img src="" alt="">
   </div>
   <div class="name">
