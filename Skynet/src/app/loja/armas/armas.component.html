@@ -1,21 +1,43 @@
-<div class="bg-dark vh-100 d-flex justify-content-center align-items-center">
-  <div class="container d-flex justify-content-center" *ngFor="let produto of loja">
-      <div class="card p-2">
-          <div class="p-info px-3 py-3">
-              <div>
-                  <h5 class="mb-0">{{produto.name}}</h5> <span>{{produto.status}}</span>
-              </div>
-              <div class="p-price d-flex flex-row"> <span>R$</span>
-                  <h1>{{produto.valor}}</h1>
-              </div>
-              <div class="heart"> <i class="bx bx-heart"></i> </div>
-          </div>
-          <div class="text-center p-image"> <img src="{{produto.avatar}}"> </div>
-          <div class="p-about">
-              <p>{{produto.info}}</p>
-          </div>
-          <div class="buttons d-flex flex-row gap-3 px-3"> <button class="btn btn-danger w-100">Descrição</button> <button class="btn btn-outline-danger w-100">Comprar</button> </div>
+<div class="row">
+  <div class="col md-4" *ngFor="let produto of loja">
+      <div class="card">
+  <div class="ds-top"></div>
+  <div class="avatar-holder">
+
+    <img src="{{loja.avatar}}" alt="">
+
+    <img src="" alt="">
+  </div>
+  <div class="name">
+    <a href="" target="_blank">{{loja.name}}</a>
+    <h6 title="Followers"><i class="fas fa-users"></i> <span class="followers">-</span></h6>
+  </div>
+  <div class="button">
+    <a href="#" class="btn" onmousedown="follow();">Comprar <i class="fas fa-user-plus"></i></a>
+  </div>
+  <div class="ds-info">
+    <div class="ds posts">
+      <h6 title="Number of posts">Valor<i class="fas fa-comments"></i><p> </p></h6>
+      <p>{{loja.patente}}</p>
+    </div>
+    <div class="ds posts">
+      <h6 title="Number of posts">Descrição:<i class="fas fa-comments"></i><p> </p></h6>
+      <p>{{loja.info}}</p>
+    </div>
+    <div class="ds posts">
+      <h6 title="Number of posts">ADR<i class="fas fa-comments"></i><p> </p></h6>
+      <p>{{loja.status}}</p>
+    </div>
+  </div>
+
+
+
+  <div class="ds-skill">
+    <h6>Skill <i class="fa fa-code" aria-hidden="true"></i></h6>
+
+
+
       </div>
+    </div>
   </div>
 </div>
-
