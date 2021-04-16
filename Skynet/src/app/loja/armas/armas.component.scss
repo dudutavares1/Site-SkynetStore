@@ -1,11 +1,16 @@
+
 .card {
-  width: 350px;
-  border: none;
-  height: 350px;
+  margin: 9px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  width: 410px;
+  border: white;
+  height: 410px;
   border-radius: 3px;
   cursor: pointer;
   position: relative;
   overflow: hidden
+
 }
 
 .p-info {
@@ -15,8 +20,8 @@
 
 .p-price {
   position: absolute;
-  right: 10px;
-  top: 20px
+  right: 40px;
+  top: 40px
 }
 
 .heart i {
@@ -30,7 +35,8 @@
 }
 
 .p-image img {
-  width: 240px;
+  width: 410px;
+
   transform: rotate(15deg)
 }
 
@@ -74,11 +80,11 @@
 }
 
 .card:hover .p-image img {
-  animation: onimage 300ms ease-in forwards
+  animation: onimage 1000ms ease-in forwards
 }
 
 .card:hover .p-price {
-  animation: onprice 500ms ease-in forwards
+  animation: onprice 1000ms ease-in forwards
 }
 
 @keyframes onprice {
@@ -142,3 +148,4 @@
   width: 140px !important;
   font-weight: 600
 }
+
