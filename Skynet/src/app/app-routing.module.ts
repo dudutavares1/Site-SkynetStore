@@ -13,6 +13,8 @@ import { PromocaoComponent } from './loja/promocao/promocao.component';
 
 
 
+
+
 const routes: Routes = [
   { path: 'dicas', component: DicasComponent },
   {path: 'Crosshair', component: CrosshairComponent },
