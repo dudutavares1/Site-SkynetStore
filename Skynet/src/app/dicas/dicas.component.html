@@ -1,10 +1,10 @@
 
     <!-- MAIN CONTAINER -->
-    <section class="main-container" *ngFor="let produto of loja" >
+    <section class="main-container" *ngFor="let produto of dicas" >
       <div class="location" id="home">
-          <h1 id="home">Dicas Awp</h1>
+          <h1 id="home">{{produto.titulo}}</h1>
           <div class="box">
-            <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p1.PNG?raw=true" alt=""></a>
+            <a href=""><img src="{{produto.avatar}}" alt="{{produto.Link}}"></a>
            </div>
       </div>
 
