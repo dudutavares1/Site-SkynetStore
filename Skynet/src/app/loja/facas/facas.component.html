@@ -4,40 +4,27 @@
   <div class="ds-top"></div>
   <div class="avatar-holder">
 
-    <img src="{{loja.avatar}}" alt="">
+    <img src="{{produto.avatar}}" alt="">
 
     <img src="" alt="">
   </div>
-  <div class="name">
-    <h4 href="" target="_blank">{{loja.name}}</h4>
 
+  <div class="name">
+    <a href="" target="_blank">{{produto.name}}</a>
+    <h6 title="Followers"><i class="fas fa-users"></i> <span class="followers"></span></h6>
   </div>
   <div class="button">
     <a href="#" class="btn" onmousedown="follow();">Comprar <i class="fas fa-user-plus"></i></a>
   </div>
+
   <div class="ds-info">
     <div class="ds posts">
-      <h6 title="Number of posts">Valor<i class="fas fa-comments"></i><p> </p></h6>
-      <p>{{loja.patente}}</p>
-    </div>
-    <div class="ds posts">
-      <h6 title="Number of posts">Descrição:<i class="fas fa-comments"></i><p> </p></h6>
-      <p>{{loja.info}}</p>
-    </div>
-    <div class="ds posts">
-      <h6 title="Number of posts">ADR<i class="fas fa-comments"></i><p> </p></h6>
-      <p>{{loja.status}}</p>
+      <h6 title="Number of posts">R$ <i class="fas fa-comments"></i>{{produto.valor}}<p></p></h6>
+      <p></p>
     </div>
   </div>
 
-
-
-  <div class="ds-skill">
-    <h6>Skill <i class="fa fa-code" aria-hidden="true"></i></h6>
-
-
-
-      </div>
-    </div>
-  </div>
 </div>
+    </div>
+  </div>
+

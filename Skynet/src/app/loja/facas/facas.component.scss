@@ -21,12 +21,12 @@ body {
 .card {
 text-align: center;
   margin: 5px;
-  top: 5px;
+  top: 10px;
   right: 5px;
   bottom: 5px;
   left: 5px;
-  width: 410px;
-  height: 380px;
+  width: 450px;
+  height: 400px;
   border-radius: 10px;
   box-shadow: 0 10px 25px 5px rgba(255, 0, 0, 0.534);
   background: #000000;
@@ -35,29 +35,28 @@ text-align: center;
 
   .ds-top {
 
-    margin: auto;
+    margin: 0px;
     top: 0;
     right: 0;
     left: 0;
-    width: 300px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     background: rgb(54, 54, 54);
-    animation: dsTop 1.5s;
+
   }
 
   .avatar-holder {
 
     margin: auto;
-    top: 10px;
-    width: 400px;
-    height: 400px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
     background: white;
     overflow: hidden;
-    animation: mvTop 1.5s;
+
     img {
       width: 100%;
       height: 100%;
-      margin: auto;
       object-fit: cover;
     }
   }
@@ -134,8 +133,8 @@ text-align: center;
       right: 5px;
       bottom: 5px;
       left: 5px;
-      width: 400px;
-      height: 300px;
+      width: 600px;
+      height: 600px;
       animation: fadeInMove 1s;
       animation-fill-mode: forwards;
       h6 {

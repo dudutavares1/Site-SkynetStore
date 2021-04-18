@@ -1,21 +1,27 @@
-<div class="bg-dark vh-100 d-flex justify-content-center align-items-center">
-  <div class="container d-flex justify-content-center">
-      <div class="card p-2">
-          <div class="p-info px-3 py-3">
-              <div>
-                  <h5 class="mb-0">Beats By Dre</h5> <span>Professional Headphones</span>
-              </div>
-              <div class="p-price d-flex flex-row"> <span>$</span>
-                  <h1>299</h1>
-              </div>
-              <div class="heart"> <i class="bx bx-heart"></i> </div>
-          </div>
-          <div class="text-center p-image"> <img src="https://i.imgur.com/hpftqCo.png"> </div>
-          <div class="p-about">
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
-          </div>
-          <div class="buttons d-flex flex-row gap-3 px-3"> <button class="btn btn-danger w-100">View</button> <button class="btn btn-outline-danger w-100">Buy Now</button> </div>
-      </div>
+<a class="link" href="https://codepen.io/simoberny/pen/qxxOqj" target="_blank">Dark Version</a>
+<div class="movie_card" id="bright" *ngFor="let produto of loja">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="https://movieplayer.net-cdn.it/t/images/2017/12/20/bright_jpg_191x283_crop_q85.jpg"/>
+      <h1>Bright</h1>
+      <h4>{{produto.name}}</h4>
+      <span class="minutes">117 min</span>
+      <p class="type">Action, Crime, Fantasy</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+        Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for.
+      </p>
+    </div>
+    <div class="movie_social">
+      <ul>
+        <li><i class="material-icons">share</i></li>
+        <li><i class="material-icons"></i></li>
+        <li><i class="material-icons">chat_bubble</i></li>
+      </ul>
+    </div>
   </div>
+  <div class="blur_back bright_back"></div>
 </div>
+
 
