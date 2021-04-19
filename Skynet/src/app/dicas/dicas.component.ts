@@ -108,6 +108,17 @@ export class DicasComponent implements OnInit {
     avatar18: "https://i.ytimg.com/vi/b-CYOQGwgCc/maxresdefault.jpg",
     Link18 :"https://www.youtube.com/watch?v=b-CYOQGwgCc",
 
+
+
+
+// DICAS FPS //
+
+    avatar19: "https://i.ytimg.com/vi/b-CYOQGwgCc/maxresdefault.jpg",
+    Link19 :"https://www.youtube.com/watch?v=b-CYOQGwgCc",
+
+
+
+
   },
 
 
