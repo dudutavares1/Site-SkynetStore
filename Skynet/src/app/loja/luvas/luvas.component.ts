@@ -9,11 +9,11 @@ export class LuvasComponent implements OnInit {
 
   loja: any = [
   {
- name: "AK-47 | Legião de Anubis",
- valor: "400,00",
- info: "Avtomát Kaláshnikova, também conhecida como Kalashnikov, é um fuzil de assalto de calibre 7,62x39mm criado em 1947 por Mikhail Kalashnikov e produzido na União Soviética pela indústria estatal IZH. É a arma de fogo originária da família de fuzis Kalashnikov ou AK. O trabalho de design na AK-47 começou em 1945", status: "Nova de fabrica",
+ name: "Luvas de Motorista (★) | Piloto Verde",
+ valor: "340,00",
+ info: "Estas luvas de condução oferecem proteção e ainda mantêm a sensação tátil. Este par de luvas verdes foi decorado com couro cinza costurado em um padrão de zigue-zague.",
 codigo: "0001",
- avatar: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fp1n-rV4Y3ljWu5rhc1JjTtIYXGIwY5NQnRqVG2yL_qgpPuusvOzXs2vyV0syuJl0fk1RxFO7dtgOveFwsOFpABwg/512fx512f",
+ avatar: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAX1R3LjtQurWzLhRfwP_BcjZ9_8i_gIODkvPLNKnUk2Vu79d0k9bM8Ij8nVn6qhBuMGv7coOQIFU5MluDq1S_lenmh5K07szKn3Bk7nMi7HuPy0CzhAYMMLKv64oNVA/512fx512f",
 },
 
 {
@@ -22,35 +22,35 @@ codigo: "0001",
   info: "Preferidas por lutadores corpo a corpo, estas faixas protegem os nós dos dedos e estabilizam o punho ao socar. Estas faixas restauradas são duráveis, mas não permitem a respiração da pele.",
   status: "Testada em Campo Extraordinário",
   codigo: "0003",
-  avatar: "https://csgostash.com/storage/img/skin_sideview/s274.png?id=9f7ae7d93f93ff4e8f66",
+  avatar: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fp1n-rV4Y3ljWu5rhc1JjTtIYXGIwY5NQnRqVG2yL_qgpPuusvOzXs2vyV0syuJl0fk1RxFO7dtgOveFwsOFpABwg/512fx512f",
  },
 
 
  {
-  name: "AWP | Relâmpago",
-  valor: "800,00",
-  info: "AWP sniper rifle é a arma mais letal em CS:GO. Cinco tiros bem mirados e ganha uma rodada. Melhore o dispositivo com uma skin fresca e todos os inimigos serão derrotados num piscar de olhos! AWP Lightning Strike atingirá os adversários com um raio, considerando que AWP Hyper Beast assusta rivais com a imagem de um monstro de presas. Conseguir estes e outros itens impressionantes do caixa AWP. Olhe no botão abrir e puxe o gatilho!",
+  name: "Luvas da Hidra (★) | Manguezal",
+  valor: "412,03",
+  info: "Estas luvas sem dedos foram decoradas com tachas de metal e o emblema da Operação Hidra. Estas luvas foram feitas com uma mistura de couro, malha sintética e bronze.",
   status: "Pouco Usada",
   codigo: "0004",
-  avatar: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAX1R3LjtQurWzLhRfwP_BcjZ9_8i_gIODkvPLNKnUk2Vu79d0k9bM8Ij8nVn6qhBuMGv7coOQIFU5MluDq1S_lenmh5K07szKn3Bk7nMi7HuPy0CzhAYMMLKv64oNVA/512fx512f",
+  avatar: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibK8LxVh7PTEfitH_-O0mI-Ek__7JrXVqWNI7Ndwte7T8In7t1ixqgc0NiucedPWKmlsIwmTuT7jlLq2wMui6JzAnXs1uyAjsHzZyxPkiBBFPe1uhvycGF6bDvZASKXQUHbW5JlwQTLqR00VJ-vLsQ/512fx512f",
  },
 
  {
-  name: "AWP | Fade",
-  valor: "4.000,00",
-  info: "AWP sniper rifle é a arma mais letal em CS:GO. Cinco tiros bem mirados e ganha uma rodada. Melhore o dispositivo com uma skin fresca e todos os inimigos serão derrotados num piscar de olhos! AWP Lightning Strike atingirá os adversários com um raio, considerando que AWP Hyper Beast assusta rivais com a imagem de um monstro de presas. Conseguir estes e outros itens impressionantes do caixa AWP. Olhe no botão abrir e puxe o gatilho!",
+  name: "Luvas da Hidra (★) | Cascavel",
+  valor: "500,00",
+  info: "Estas luvas sem dedos foram decoradas com tachas de metal e o emblema da Operação Hidra. Estas luvas foram feitas com uma mistura de couro, pele de cobra e bronze.",
   status: "Nova de fabrica",
   codigo: "0005",
-  avatar: "https://csgostash.com/storage/img/skin_sideview/s1321.png?id=25d117959446ceac0f3b",
+  avatar: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibK8LxVh7PTEfitH_-O0mI-Ek__7JrXVqWNI7NdwtfrP9Ifwm1-9pSw-ITiwZ-nIJ1JnJAXO_VnrwbvohcC-vsjIzHdr63Yg5Xvcl0O0hhtIP-E71KedQV3MAKFITb7CWCReeCDipA/512fx512f",
  },
 
  {
-  name: "AWP | Fever Dream",
-  valor: "100,00",
-  info: "AWP sniper rifle é a arma mais letal em CS:GO. Cinco tiros bem mirados e ganha uma rodada. Melhore o dispositivo com uma skin fresca e todos os inimigos serão derrotados num piscar de olhos! AWP Lightning Strike atingirá os adversários com um raio, considerando que AWP Hyper Beast assusta rivais com a imagem de um monstro de presas. Conseguir estes e outros itens impressionantes do caixa AWP. Olhe no botão abrir e puxe o gatilho!",
+  name: "Faixas (★) | Camuflagem Digital — Abeto",
+  valor: "677,00 ",
+  info: "Preferidas por lutadores corpo a corpo, estas faixas protegem os nós dos dedos e estabilizam o punho ao socar. A faixa mais externa é uma tela de tecido estampada com uma camuflagem digital verde. Alguns dizem que são durões... outros mostram que são",
   status: "Pouco Usada",
   codigo: "0006",
-  avatar: "https://csgostash.com/storage/img/skin_sideview/s845.png?id=efaea6e928c015b6e8de",
+  avatar: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j3MrbeqWxD7dxOh-zF_Jn4xlCyrktsZmvxINLBdw9vNA7T_Fbrx73vjJPptJucnHdqvCJwsSyImBypwUYblwFxuLY/512fx512f",
  },
 
 
