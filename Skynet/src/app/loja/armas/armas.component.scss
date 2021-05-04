@@ -1,282 +1,559 @@
-@import url('https://fonts.googleapis.com/css?family=Krub:400,700');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  width: fit-content;
-  height:fit-content ;
-}
-
+    * {margin: 0px; padding: 0px; box-sizing: 0px;}
 body {
-text-align: center;
-  background: #ffffff;
-  font-family: 'Krub', sans-serif;
+    background: linear-gradient(to bottom, #00ccff 57%, #66ffff 100%);
+}
+.nav  {
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: none;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.perfil-img  {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.bemvindo {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.bemvindo p{
+    margin-top: 0px;
+    margin-left: 20px;
+    color: white;
+}
+.pesq input{
+    position: absolute;
+    width: 30%;
+    height: 20px;
+    margin-left: 400px;
+    margin-top: 15px;
+}
+.pesq input:hover {
+    box-shadow: 0px 6px 8px 8px black;
+}
+.perfil-edit p a{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 20px;
+    color: white;
+    display: inline;
+}
+.exit p a{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 20px;
+    color: white;
+    display: inline;
+}
+.ico-exit  {
+    position: absolute;
+    margin-left: 1290px ;
+    margin-top: 20px;
+    color: white;
+}
+.search  {
+    position: absolute;
+    margin-left: 775px;
+    margin-top: 18px;
+    font-size: 15;
+    color: gray;
+}
+ul {
+    position: relative;
+    border: none;
+    background-color: #666699 ;
+    padding: 0px;
+    margin-top: 50px;
 }
 
-.card {
-text-align: center;
-  margin: 5px;
-  top: 10px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px;
-  width: 500px;
-  height: 350px;
-  border-radius: 10px;
-  box-shadow: 0 10px 25px 5px rgba(255, 254, 254, 0.534);
-  background: #270101;
-  overflow: hidden;
+ul li {
+    display: inline-block;
 
+}
 
-  .ds-top {
-    text-align: center;
-    margin: 0px;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    background: rgb(54, 54, 54);
-
-  }
-
-  .avatar-holder {
-
-    margin: auto;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    background: white;
-    overflow: hidden;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-
-  .name {
-
-    margin: auto;
-    top: -60px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: inherit;
-    height: 40px;
-    text-align: center;
-    animation: fadeIn 2s ease-in;
-    a {
-      color: white;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 18px;
-        &:hover {
-          text-decoration: underline;
-          color: rgb(255, 0, 51);
-      }
-    }
-    h6 {
-
-      margin: auto;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      color: white;
-      width: 40px;
-    }
-  }
-
-
-  .button {
-    border-top: 1px solid #ffffff;
-    background: #000000;
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
-    background: -webkit-linear-gradient(top, #000000, #000000);
-    background: -moz-linear-gradient(top, #000000, #000000);
-    background: -ms-linear-gradient(top, #000000, #000000);
-    background: -o-linear-gradient(top, #000000, #000000);
-    padding: 5px 10px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-    box-shadow: rgba(0,0,0,1) 0 1px 0;
-    text-shadow: rgba(0,0,0,.4) 0 1px 0;
-    color: #ffffff;
-    font-size: 14px;
-    font-family: Georgia, serif;
+ul li a{
     text-decoration: none;
-    vertical-align: middle;
-    }
+    color: white;
+    padding: 10px 60px;
+    display: block;
 
- .button:hover {
-    border-top-color: #000000;
-    background: #000000;
-    color: #ffffff;
-    }
- .button:active {
-    border-top-color: #ffffff;
-    background: #ffffff;
-    }
+}
+ul li:hover  {
+    background-color: lightblue;
+}
 
-  .ds-info {
-    text-align: center;
-    margin: 50px;
-    top: 120px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: inherit;
-    height: 40px;
-    display: flex;
-    .pens, .projects, .posts {
 
-      position: relative;
-      text-align: center;
-      margin: 5px;
-      color: white;
-      top: 5px;
-      right: 5px;
-      bottom: 5px;
-      left: 5px;
-      width: 600px;
-      height: 600px;
-      animation: fadeInMove 1s;
-      animation-fill-mode: forwards;
-      h6 {
-        text-transform: uppercase;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size: 10px;
-      }
-      p {
-        font-size: 10px;
-        text-align: center;
-      }
-    }
-    .ds {
-      &:nth-of-type(2) {
-        animation-delay: .5s;
-      }
-      &:nth-of-type(1) {
-        animation-delay: 1s;
-      }
-    }
-  }
-  .ds-skill {
+ul ul {
+    position: absolute;
+    margin-top: 0px;
+    display: none;
+    background-color:#666699 ;
+}
 
-    margin: auto;
-    bottom: 10px;
-    right: 0;
-    left: 0;
+ul ul li{
+    display: block;
+    background-color:white ;
+
+}
+
+
+ul li:hover ul {
+    display: block;
+    min-width: 180px;
+    background-color:white;
+}
+
+
+ul li:hover li a{
+   color: black
+}
+
+.ic-home {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 30px;
+    font-size: 20;
+    color: white;
+}
+.ic-game {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 60px;
+    font-size: 20;
+    color: white;
+}
+
+
+
+
+.cardgod {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 50px;
+    transition: all 2s ease;
+}
+
+.card2  {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
     width: 200px;
-    height: 100px;
-    animation: mvBottom 1.5s;
-    h6 {
-      margin-bottom: 5px;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: crimson;
-    }
-    .skill {
-      h6 {
-        font-weight: 400;
-        font-size: 8px;
-        letter-spacing: 0.05em;
-        margin: 4px 0;
-        color: white;
-      }
-      .fab {
-        color: rgb(255, 0, 51);
-        font-size: 14px;
-      }
-      .bar {
-        height: 5px;
-        background: rgb(255, 0, 51);
-        text-align: right;
-        p {
-          color: white;
-          font-size: 8px;
-          padding-top: 5px;
-          animation: fadeIn 5s;
-        }
-        &:hover {
-          background: white;
-        }
-      }
-      .bar-html {
-        width: 95%;
-        animation: htmlSkill 1s;
-        animation-delay: .4s;
-      }
-      .bar-css {
-        width: 90%;
-        animation: cssSkill 2s;
-        animation-delay: .4s;
-      }
-      .bar-js {
-        width: 75%;
-        animation: jsSkill 3s;
-        animation-delay: .4s;
-      }
-    }
-  }
-}
+    height: 250px;
+    background-color:  #00ffff;
+    box-shadow: 3px 3px 4px 2px black;
 
-@keyframes fadeInMove {
-  0% {
+}
+.lol {
+    width: 200px;
+    height:250px;
+    border-radius: 10px;
+}
+.card-pro {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: white;
     opacity: 0;
-    left: -300px;
-  }
-  100% {
+    transition: all 2s ease;
+
+}
+.lol2  {
+    width: 200px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.titlelol p{
+    border: none;
+    background-color: lightblue;
+    width: 200px;
+    height: 20px;
+    text-shadow: 2px 2px 5px green ;
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+    font-size: 14;
+    text-align: center;
+}
+
+.desclol p{
+    margin-top: 10px;
+    color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12.5;
+    text-align: center;
+}
+.rodaplol  {
+    position: absolute;
+    border: none;
+    border-bottom-left-radius: 10px;
+    background-color: darkslategrey;
+    width: 130px;
+    height: 33px;
+    margin-top: 10px;
+}
+.valorlol p{
+    position: absolute;
+    color: white;
+    text-shadow: 0.2px 0px 1px white ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.ic-love1  {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 13;
+    color: white;
+}
+.ic-love1:hover {
+    cursor: pointer;
+    color: yellow;
+}
+.buylol button{
+    position: absolute;
+    border: none;
+    border-bottom-right-radius: 10px;
+    background-color: grey;
+    color: white;
+    width:70px ;
+    height: 33px;
+    margin-left: 130px;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.cardgod:hover .card-pro{
     opacity: 1;
-    left: 0;
-  }
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 3px 3px 4px 2px black;
 }
 
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+.cardspi {
+    margin-left: 150px;
+    margin-top: 0px;
+    transition: all 2s ease;
+}
+.card3  {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: #00ffff;
+    box-shadow: 3px 3px 4px 2px black;
+}
+.warf{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.card-pro2 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    opacity: 0;
+    transition: all 2s ease;
 }
 
-@keyframes htmlSkill {
-  0% {width: 0;}
-  100% {width: 95%;}
+.warf2 {
+    width: 200px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-@keyframes cssSkill {
-  0% {width: 0;}
-  100% {width: 90%;}
+.titlewarf  p{
+    border: none;
+    background-color: lightblue;
+    width: 200px;
+    height: 20px;
+    text-shadow: 2px 2px 5px green ;
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+    font-size: 14;
+    text-align: center;
+}
+.descwarf p{
+    margin-top: 10px;
+    color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12.5;
+    text-align: center;
+}
+.rodapwarf  {
+    position: absolute;
+    border: none;
+    border-bottom-left-radius: 10px;
+    background-color: darkslategrey;
+    width: 130px;
+    height: 34px;
+    margin-top: 10px;
+}
+.valorwarf p{
+    position: absolute;
+    color: white;
+    text-shadow: 0.2px 0px 1px white ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.ic-love2  {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 13;
+    color: white;
+}
+.ic-love2:hover {
+    cursor: pointer;
+    color: yellow;
+}
+.buywarf button{
+    position: absolute;
+    border: none;
+    border-bottom-right-radius: 10px;
+    background-color: grey;
+    color: white;
+    width:70px ;
+    height: 34px;
+    margin-left: 130px;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.cardspi:hover .card-pro2 {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 3px 3px 4px 2px black;
+}
+.cardthel {
+    margin-left: 150px;
+    margin-top: 0px;
+    transition: all 2s ease;
 }
 
-@keyframes jsSkill {
-  0% {width: 0;}
-  100% {width: 75%;}
+.card4  {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 560px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    background-color:  #00ffff;
+    box-shadow: 3px 3px 4px 2px black;
+
 }
 
-@keyframes mvBottom {
-  0% {bottom: -150px;}
-  100% {bottom: 10px;}
+.mine {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
 }
 
-@keyframes mvTop {
-  0% {top: -150px;}
-  100% {top: 40px;}
+.card-pro3 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 560px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    opacity: 0;
+    transition: all 2s ease;
 }
-
-@keyframes dsTop {
-  0% {top: -150px;}
-  100% {top: 0;}
+.mine2 {
+    width: 200px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+.titlemine p{
+    border: none;
+    background-color: lightblue;
+    width: 200px;
+    height: 20px;
+    text-shadow: 2px 2px 5px lightgrey ;
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+    font-size: 14;
+    text-align: center;
+}
+.descmine p{
+    margin-top: 2px;
+    color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12.5;
+    text-align: center;
+}
+.rodapmine  {
+    position: absolute;
+    border: none;
+    border-bottom-left-radius: 10px;
+    background-color: darkslategrey;
+    width: 130px;
+    height: 33px;
+    margin-top: 10px;
+}
+.valormine {
+    position: absolute;
+    color: white;
+    text-shadow: 0.2px 0px 1px white ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.ic-love3  {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 13;
+    color: white;
+}
+.ic-love3:hover {
+    cursor: pointer;
+    color: yellow;
+}
+.buymine button{
+    position: absolute;
+    border: none;
+    border-bottom-right-radius: 10px;
+    background-color: grey;
+    color: white;
+    width:70px ;
+    height: 33px;
+    margin-left: 130px;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
 
-.following {
-  color: white;
-  background: rgb(255, 0, 51);
+}
+.cardthel:hover .card-pro3 {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 3px 3px 4px 2px black;
+}
+.carddayg {
+    margin-left: 150px;
+    margin-top: 0px;
+    transition: all 2s ease;
+}
+.card5  {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 820px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: #00ffff;
+    box-shadow: 3px 3px 4px 2px black;
+}
+.popu {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.card-pro4 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 820px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    opacity: 0;
+    transition: all 2s ease;
+}
+.popu2 {
+    width: 200px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.titlepopu p{
+    border: none;
+    background-color: lightblue;
+    width: 200px;
+    height: 20px;
+    text-shadow: 2px 2px 5px lightsalmon ;
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+    font-size: 14;
+    text-align: center;
+}
+.descpopu p{
+    margin-top: 5px;
+    color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12.5;
+    text-align: center;
+}
+.rodappopu {
+    position: absolute;
+    border: none;
+    border-bottom-left-radius: 10px;
+    background-color: darkslategrey;
+    width: 130px;
+    height: 34px;
+    margin-top: 20px;
+}
+.valorpopu {
+    position: absolute;
+    color: white;
+    text-shadow: 0.2px 0px 1px white ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.ic-love4  {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 13;
+    color: white;
+}
+.ic-love4:hover {
+    cursor: pointer;
+    color: yellow;
+}
+.buypopu button{
+    position: absolute;
+    border: none;
+    border-bottom-right-radius: 10px;
+    background-color: grey;
+    color: white;
+    width:70px ;
+    height: 34px;
+    margin-left: 130px;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carddayg:hover .card-pro4 {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 3px 3px 4px 2px black;
 }
